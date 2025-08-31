@@ -257,4 +257,558 @@ body{
         font-size: 1.3rem;
         margin: 0;
     }
+
+}
+
+@media (min-width: 321px) and (max-width: 376px){ /* Mobile M - 375px */
+    /* Navbar */
+    #navbar {
+        justify-content: center;
+        padding: 0.75rem 0;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+        margin-right: 1.2rem;
+        padding: 0.6rem;
+    }
+
+    /* Welcome section */
+    #welcome-section h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    #welcome-section p {
+        width: 85%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    /* Projects section */
+    #projects h1 {
+        font-size: 2.2rem;
+        padding-top: 8rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+        margin-top: 4rem;
+        padding-bottom: 6rem;
+    }
+
+    .project-tile:nth-child(4) {
+        grid-column: 1;
+    }
+
+    .img-one, .img-two, .img-three, .img-four {
+        width: 100%;
+        height: auto;
+        max-width: 320px;
+    }
+
+    .link-website {
+        font-size: 1.5rem;
+    }
+
+    /* Contacts section */
+    #contacts {
+        height: auto;
+        padding: 2rem 0 4rem;
+    }
+
+    #contacts h1 {
+        font-size: 2.2rem;
+        padding-top: 6rem;
+    }
+
+    #contacts p {
+        font-size: 1.2rem;
+        margin: 0 1rem 2rem;
+    }
+
+    .contact-methods {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+    }
+
+    .github-logo, .facebook-logo {
+        width: 26px;
+        height: auto;
+    }
+
+    #profile-link, #profile-link-facebook {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+}
+
+@media (min-width: 377px) and (max-width: 426px){ /* Mobile L - 425px */
+    /* Navbar */
+    #navbar {
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    .nav-link {
+        font-size: 1.3rem;
+        margin-right: 1.5rem;
+        padding: 0.75rem;
+    }
+
+    /* Welcome section */
+    #welcome-section h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    #welcome-section p {
+        width: 80%;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    /* Projects section */
+    #projects h1 {
+        font-size: 2.5rem;
+        padding-top: 8rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        row-gap: 3.5rem;
+        margin-top: 5rem;
+        padding-bottom: 6rem;
+    }
+
+    .project-tile:nth-child(4) {
+        grid-column: 1;
+    }
+
+    .img-one, .img-two, .img-three, .img-four {
+        width: 100%;
+        height: auto;
+        max-width: 360px;
+    }
+
+    .link-website {
+        font-size: 1.6rem;
+    }
+
+    /* Contacts section */
+    #contacts {
+        height: auto;
+        padding: 3rem 0 5rem;
+    }
+
+    #contacts h1 {
+        font-size: 2.5rem;
+        padding-top: 6rem;
+    }
+
+    #contacts p {
+        font-size: 1.3rem;
+        margin: 0 2rem 2rem;
+    }
+
+    .contact-methods {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .github-logo, .facebook-logo {
+        width: 28px;
+        height: auto;
+    }
+
+    #profile-link, #profile-link-facebook {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 769px){ /* Tablet - 768px */
+    /* Navbar */
+    #navbar {
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    .nav-link {
+        font-size: 1.4rem;
+        margin-right: 2rem;
+        padding: 0.75rem 1rem;
+    }
+
+    /* Welcome section */
+    #welcome-section h1 {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    #welcome-section p {
+        width: 75%;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    /* Projects section */
+    #projects h1 {
+        font-size: 2.8rem;
+        padding-top: 9rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.5rem;
+        row-gap: 3rem;
+        margin-top: 5rem;
+        padding-bottom: 6rem;
+    }
+
+    .project-tile:nth-child(4) {
+        grid-column: auto;
+    }
+
+    .img-one, .img-two, .img-three, .img-four {
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+    }
+
+    .link-website {
+        font-size: 1.6rem;
+    }
+
+    /* Contacts section */
+    #contacts {
+        height: auto;
+        padding: 3rem 0 5rem;
+    }
+
+    #contacts h1 {
+        font-size: 2.8rem;
+        padding-top: 6rem;
+    }
+
+    #contacts p {
+        font-size: 1.3rem;
+        margin: 0 2rem 2.5rem;
+    }
+
+    .contact-methods {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .github-logo, .facebook-logo {
+        width: 30px;
+        height: auto;
+    }
+
+    #profile-link, #profile-link-facebook {
+        font-size: 1.6rem;
+        margin: 0;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1025px){ /* Laptop - 1024px */
+    /* Navbar */
+    #navbar {
+        justify-content: flex-end;
+        padding: 1rem 2rem;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+        margin-right: 2rem;
+        padding: 0.75rem 1.2rem;
+    }
+
+    /* Welcome section */
+    #welcome-section h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #welcome-section p {
+        width: 70%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* Projects section */
+    #projects h1 {
+        font-size: 3rem;
+        padding-top: 9rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        row-gap: 3.5rem;
+        margin-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+    .project-tile:nth-child(4) {
+        grid-column: auto;
+    }
+
+    .img-one, .img-two, .img-three, .img-four {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+
+    .link-website {
+        font-size: 1.75rem;
+    }
+
+    /* Contacts section */
+    #contacts {
+        height: auto;
+        padding: 3rem 0 6rem;
+    }
+
+    #contacts h1 {
+        font-size: 3rem;
+        padding-top: 6rem;
+    }
+
+    #contacts p {
+        font-size: 1.4rem;
+        margin: 0 3rem 2.5rem;
+    }
+
+    .contact-methods {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .github-logo, .facebook-logo {
+        width: 32px;
+        height: auto;
+    }
+
+    #profile-link, #profile-link-facebook {
+        font-size: 1.75rem;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1026px) and (max-width: 1441px){ /* Laptop L - 1440px */
+    /* Navbar */
+    #navbar {
+        justify-content: flex-end;
+        padding: 1.2rem 3rem;
+    }
+
+    .nav-link {
+        font-size: 1.7rem;
+        margin-right: 3rem;
+        padding: 0.75rem 1.5rem;
+    }
+
+    /* Welcome section */
+    #welcome-section h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    #welcome-section p {
+        width: 60%;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    /* Projects section */
+    #projects h1 {
+        font-size: 3.5rem;
+        padding-top: 10rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2.5rem;
+        row-gap: 4rem;
+        margin-top: 7rem;
+        padding-bottom: 8rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .img-one, .img-two, .img-three, .img-four {
+        width: 100%;
+        height: auto;
+        max-width: 420px;
+    }
+
+    .link-website {
+        font-size: 1.8rem;
+    }
+
+    /* Contacts section */
+    #contacts {
+        height: auto;
+        padding: 4rem 0 7rem;
+    }
+
+    #contacts h1 {
+        font-size: 3.5rem;
+        padding-top: 7rem;
+    }
+
+    #contacts p {
+        font-size: 1.5rem;
+        margin: 0 4rem 2.5rem;
+    }
+
+    .contact-methods {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .github-logo, .facebook-logo {
+        width: 36px;
+        height: auto;
+    }
+
+    #profile-link, #profile-link-facebook {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1442px) and (max-width: 2561px){ /* 4K - 2560px and up */
+    /* Navbar */
+    #navbar {
+        justify-content: flex-end;
+        padding: 1.5rem 6rem;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+        margin-right: 4rem;
+        padding: 1rem 2rem;
+    }
+
+    /* Welcome section */
+    #welcome-section h1 {
+        font-size: 4.5rem;
+        text-align: center;
+    }
+
+    #welcome-section p {
+        width: 50%;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    /* Projects section */
+    #projects h1 {
+        font-size: 4.5rem;
+        padding-top: 12rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 4rem;
+        row-gap: 5rem;
+        margin-top: 8rem;
+        padding-bottom: 10rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .img-one, .img-two, .img-three, .img-four {
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+    }
+
+    .link-website {
+        font-size: 2rem;
+    }
+
+    /* Contacts section */
+    #contacts {
+        height: auto;
+        padding: 5rem 0 8rem;
+    }
+
+    #contacts h1 {
+        font-size: 4.5rem;
+        padding-top: 8rem;
+    }
+
+    #contacts p {
+        font-size: 2rem;
+        margin: 0 6rem 3rem;
+    }
+
+    .contact-methods {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .github-logo, .facebook-logo {
+        width: 42px;
+        height: auto;
+    }
+
+    #profile-link, #profile-link-facebook {
+        font-size: 2rem;
+        margin: 0;
+    }
 }
