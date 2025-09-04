@@ -171,12 +171,14 @@ body{
     /* Navbar */
     #navbar {
         justify-content: center;
+        gap: 0.5rem;
         padding: 0.5rem 0;
     }
     
     .nav-link {
         font-size: 1rem;
-        margin-right: 0.8rem;
+        /* margin-right: 0.5rem; */
+        margin: 0;
         padding: 0.5rem;
     }
 
@@ -257,19 +259,19 @@ body{
         font-size: 1.3rem;
         margin: 0;
     }
-
 }
 
 @media (min-width: 321px) and (max-width: 376px){ /* Mobile M - 375px */
     /* Navbar */
     #navbar {
         justify-content: center;
+        gap: 1.2rem;
         padding: 0.75rem 0;
     }
 
     .nav-link {
         font-size: 1.2rem;
-        margin-right: 1.2rem;
+        margin: 0;
         padding: 0.6rem;
     }
 
@@ -356,12 +358,13 @@ body{
     /* Navbar */
     #navbar {
         justify-content: center;
+        gap: 1.2rem;
         padding: 1rem 0;
     }
 
     .nav-link {
         font-size: 1.3rem;
-        margin-right: 1.5rem;
+        margin: 0;
         padding: 0.75rem;
     }
 
@@ -447,13 +450,13 @@ body{
 @media (min-width: 427px) and (max-width: 769px){ /* Tablet - 768px */
     /* Navbar */
     #navbar {
-        justify-content: center;
+        gap: 1.5rem;
         padding: 1rem 0;
     }
 
     .nav-link {
         font-size: 1.4rem;
-        margin-right: 2rem;
+        margin: 0;
         padding: 0.75rem 1rem;
     }
 
@@ -489,7 +492,7 @@ body{
 
     .img-one, .img-two, .img-three, .img-four {
         width: 100%;
-        height: auto;
+        height: 80%;
         max-width: 350px;
     }
 
@@ -582,7 +585,8 @@ body{
 
     .img-one, .img-two, .img-three, .img-four {
         width: 100%;
-        height: auto;
+        /* height: auto; */
+        height: 80%;
         max-width: 400px;
     }
 
@@ -673,7 +677,7 @@ body{
 
     .img-one, .img-two, .img-three, .img-four {
         width: 100%;
-        height: auto;
+        height: 80%;
         max-width: 420px;
     }
 
@@ -764,7 +768,7 @@ body{
 
     .img-one, .img-two, .img-three, .img-four {
         width: 100%;
-        height: auto;
+        height: 80%;
         max-width: 480px;   /* cũng tăng thêm cho cân đối */
     }
 
